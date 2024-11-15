@@ -1,3 +1,20 @@
+# COVID-19 App
+
+The COVID-19 App is a web application designed to provide real-time information about the COVID-19 pandemic, including global and country-specific statistics. It offers a simple, user-friendly interface that helps users track the number of confirmed cases, deaths, and recoveries worldwide, as well as for individual countries.
+
+## Features
+
+The COVID-19 App includes the following features:
+
+- **Global and Country-specific COVID-19 statistics**
+- **Real-time data updates**
+- **Interactive charts and graphs**
+- **Country search and filter options**
+- **Responsive Design**
+- **COVID-19 statistics for the current and past dates**
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
