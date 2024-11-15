@@ -19,3 +19,28 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotateImage 10s linear infinite;
+}
+
+.secondimg{
+  display: block;
+}
+@media (max-width: 865px) {
+  .secondimg{
+    display: none;
+  }
+}
+
+
+ 
+
