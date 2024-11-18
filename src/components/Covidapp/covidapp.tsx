@@ -352,7 +352,7 @@ export default function CovidApp() {
     <button className="px-4 py-2 bg-gray-300 rounded-md">Previous</button>
   </div> */}
   
-  <div className="flex justify-center w-full overflow-x-auto min-h-[400px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-[600px]">
+  <div className="flex justify-center w-full overflow-x-auto min-h-[300px] sm:min-h-[400px] md:min-h-[500px] lg:min-h-[600px]">
     {country === "all" ? lineChart : barChart}
   </div>
   
