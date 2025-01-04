@@ -55,7 +55,7 @@ export default function CovidApp() {
      
     const fetchData = async () => {
       try {
-        // Fetch countries list for the dropdown
+       
         const countriesResp = await axios.get("https://disease.sh/v3/covid-19/countries");
         setCountries(countriesResp.data);
 
