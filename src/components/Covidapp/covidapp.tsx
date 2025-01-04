@@ -43,7 +43,7 @@ export default function CovidApp() {
   const [country, setCountry] = useState("all");
   const [countries, setCountries] = useState<any[]>([]); 
   const [visibleData, setVisibleData] = useState<any[]>([]); 
-  const pageSize = 32;
+  const pageSize = 31;
 
   
   useEffect(() => {
