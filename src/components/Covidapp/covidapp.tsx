@@ -43,14 +43,14 @@ export default function CovidApp() {
   const [country, setCountry] = useState("all");
   const [countries, setCountries] = useState<any[]>([]); 
   const [visibleData, setVisibleData] = useState<any[]>([]); 
-  const pageSize = 31;
+  const pageSize = 21;
 
   
   useEffect(() => {
     setVisibleData(dailyData.slice(0, pageSize));
   }, [dailyData]);
 
-  // Fetch global or country-specific data
+  //  fdjfkdjf
   useEffect(() => {
      
     const fetchData = async () => {
